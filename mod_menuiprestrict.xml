@@ -10,7 +10,9 @@
     <version>0.1</version>
     <description>MOD_MENUIPRESTRICT_XML_DESCRIPTION</description>
 
-    <files>
+    <scriptfile>install.script.php</scriptfile>
+
+    <files folder="site/modules/mod_menuiprestrict">
         <filename module="mod_menuiprestrict">mod_menuiprestrict.php</filename>
         <folder>language</folder>
         <folder>plugins</folder>
