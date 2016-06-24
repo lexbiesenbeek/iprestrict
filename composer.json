@@ -7,13 +7,13 @@
     }
   ],
   "description": "Picturae Iprestrict Joomla! package",
-  "homepage": "https://code.pictura-dp.nl/projects/@todo",
+  "homepage": "https://github.com/lexbiesenbeek/iprestrict",
   "keywords": [
     "joomla",
     "iprestrict"
   ],
   "license": "GPLv3",
-  "name": "picturae/iprestrict",
+  "name": "lexbiesenbeek/iprestrict",
   "require": {
     "joomlatools/installer": "*"
   },
