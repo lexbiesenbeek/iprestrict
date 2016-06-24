@@ -28,7 +28,7 @@ class iprestrictInstallerScript
     function installPlugins()
     {
         // Install plugins from tmp path
-        $pluginsDir = JPATH_ROOT . '/plugins/';
+        $pluginsDir = JPATH_ROOT . '/modules/mod_menuiprestrict/plugins/';
 
         var_dump($pluginsDir);
 
