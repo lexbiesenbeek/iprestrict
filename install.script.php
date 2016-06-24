@@ -30,6 +30,8 @@ class iprestrictInstallerScript
         // Install plugins from tmp path
         $pluginsDir = JPATH_ROOT . '/plugins/';
 
+        var_dump($pluginsDir);
+
         if (!file_exists($pluginsDir)) {
             $pluginsDir = JPATH_ROOT . '../build' . JURI::root(true) . '/plugins/';
         }
