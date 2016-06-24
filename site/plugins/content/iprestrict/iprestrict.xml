@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+    <name>plg_content_iprestrict</name>
+    <author>Picturae</author>
+    <creationDate>June 2016</creationDate>
+    <version>1.0</version>
+    <copyright>Picturae</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>contact@picturae.com</authorEmail>
+    <authorUrl>www.picturae.com</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_CONTENT_IPRESTRICT_DESCRIPTION</description>
+    <files>
+        <folder>language</folder>
+        <folder>form</folder>
+        <filename plugin="iprestrict">iprestrict.php</filename>
+    </files>
+</extension>

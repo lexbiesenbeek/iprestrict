@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="attribs">
+        <fieldset name="iprestrict" label="PLG_CONTENT_IPRESTRICT_FIELDSET_IPRESTRICT">
+            <field name="iprestrict" type="checkbox" label="PLG_CONTENT_IPRESTRICT_FLD_IPRESTRICT"/>
+        </fieldset>
+    </fields>
+</form>

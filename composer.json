@@ -1,0 +1,21 @@
+{
+  "authors": [
+    {
+      "email": "contact@picturae.com",
+      "homepage": "https://picturae.com",
+      "name": "Picturae"
+    }
+  ],
+  "description": "Picturae Iprestrict Joomla! package",
+  "homepage": "https://code.pictura-dp.nl/projects/@todo",
+  "keywords": [
+    "joomla",
+    "iprestrict"
+  ],
+  "license": "GPLv3",
+  "name": "picturae/iprestrict",
+  "require": {
+    "joomlatools/installer": "*"
+  },
+  "type": "joomlatools-installer"
+}
