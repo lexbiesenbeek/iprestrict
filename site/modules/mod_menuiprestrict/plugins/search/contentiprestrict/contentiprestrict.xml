@@ -11,6 +11,7 @@
 	<version>1.0.0</version>
 	<description>PLG_SEARCH_CONTENTIPRESTRICT_XML_DESCRIPTION</description>
 	<files>
+		<folder>language</folder>
 		<filename plugin="contentiprestrict">contentiprestrict.php</filename>
 	</files>
 	<config>
