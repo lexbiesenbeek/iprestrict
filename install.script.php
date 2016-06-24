@@ -5,7 +5,7 @@ defined('_JEXEC') or die('Restricted access');
 /**
  * Install script file for the Iprestrict plugins and modules
  */
-class iprestrictInstallerScript
+class mod_menuiprestrictInstallerScript
 {
 
     /**
@@ -30,10 +30,8 @@ class iprestrictInstallerScript
         // Install plugins from tmp path
         $pluginsDir = JPATH_ROOT . '/modules/mod_menuiprestrict/plugins/';
 
-        var_dump($pluginsDir);
-
         if (!file_exists($pluginsDir)) {
-            $pluginsDir = JPATH_ROOT . '../build' . JURI::root(true) . '/plugins/';
+            $pluginsDir = JPATH_ROOT . '../build' . JURI::root(true) . '/modules/mod_menuiprestrict/plugins/';
         }
 
         // List of iprestrict plugins to install
