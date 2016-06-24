@@ -15,7 +15,8 @@
   "license": "GPLv3",
   "name": "lexbiesenbeek/iprestrict",
   "require": {
-    "joomlatools/installer": "*"
+    "joomlatools/installer": "*",
+    "xrstf/ip-utils": "1.*"
   },
   "type": "joomlatools-installer"
 }
